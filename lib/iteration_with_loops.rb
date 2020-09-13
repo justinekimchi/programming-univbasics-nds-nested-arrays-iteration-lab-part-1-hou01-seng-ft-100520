@@ -1,13 +1,15 @@
 def find_even_values(src)
-  src = [ 
-    [10, 11], 
-    [99, 50, 3, 4], 
-    [23, 41] 
-  ]
+  row_index = 0
+  while row_index < src.count do
+    element_index =10
+    while element_index < src[row_index].count do
+      
+      element_index +=1
+     end
+     row_index +=1
+   end
+ end
   
-p src [0][0]
-p src [1][1]
-p src [1][3]
   # Output all even values in each nested array
 
 end
